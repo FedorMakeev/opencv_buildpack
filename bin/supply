@@ -7,7 +7,7 @@ DEPS_DIR=$3
 DEPS_IDX=$4
 echo "Supplying opencv"
 
-BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
+#BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
-mkdir -p $BUILD_DIR/lib
-cp -v $BP_DIR/lib/* $BUILD_DIR/lib
+#mkdir -p $BUILD_DIR/lib
+#cp -v $BP_DIR/lib/* $BUILD_DIR/lib
