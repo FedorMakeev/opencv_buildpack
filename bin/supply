@@ -10,4 +10,4 @@ BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
 mkdir -p $BUILD_DIR/lib
 cp -v $BP_DIR/lib/* $BUILD_DIR/lib
-cp -v apt.yml $BUILD_DIR/
+cp -v $BP_DIR/apt.yml $BUILD_DIR/
