@@ -9,5 +9,8 @@ echo "Supplying opencv"
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
 mkdir -p $BUILD_DIR/lib
-cp -v $BP_DIR/lib/* $BUILD_DIR/lib
+cp -v $BP_DIR/lib/* $DEPS_DIR/$DEPS_IDX
 cp -v $BP_DIR/apt.yml $BUILD_DIR/
+
+LD_LIBRARY_PATH=$DEPS_DIR/$DEPS_IDX:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
