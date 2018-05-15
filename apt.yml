@@ -1,3 +1,5 @@
 ---
 packages:
-- http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/libopenexr22_2.2.0-10ubuntu2_amd64.deb
+- libavcodec-dev
+- libavformat-dev
+- libswscale-dev
