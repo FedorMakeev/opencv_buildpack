@@ -14,5 +14,5 @@ mkdir -p $LIB_DIR
 cp -v $BP_DIR/lib/* $LIB_DIR
 cp -v $BP_DIR/apt.yml $BUILD_DIR/
 
-export LD_LIBRARY_PATH=$LIB_DIR
+export LD_LIBRARY_PATH=$LIB_DIR:$LD_LIBRARY_PATH
 echo "LD_LIBRARY_PATH="$LD_LIBRARY_PATH
