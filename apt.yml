@@ -5,6 +5,6 @@ packages:
 - g++
 - make
 - dpkg-dev
-- libstdc++6
+- libstdc++7
 - http://archive.ubuntu.com/ubuntu/pool/main/i/ilmbase/libilmbase12_2.2.0-11ubuntu2_amd64.deb
 - http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/libopenexr22_2.2.0-10ubuntu2_amd64.deb
