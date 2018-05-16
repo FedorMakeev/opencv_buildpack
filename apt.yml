@@ -1,10 +1,5 @@
 ---
 packages:
-- libc6-dev
-- gcc-4.9
-- g++
-- make
-- dpkg-dev
 - http://ftp.br.debian.org/debian/pool/main/g/gcc-4.9/libstdc++6_4.9.2-10_i386.deb
 - http://archive.ubuntu.com/ubuntu/pool/main/i/ilmbase/libilmbase12_2.2.0-11ubuntu2_amd64.deb
 - http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/libopenexr22_2.2.0-10ubuntu2_amd64.deb
